@@ -17,15 +17,6 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/editText1"
-        android:layout_alignLeft="@+id/linearLayout1"
-        android:text="Nombre"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -71,7 +62,8 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/editText2"
         android:layout_alignTop="@+id/linearLayout1"
-        android:ems="10" >
+        android:ems="10"
+        android:inputType="text" >
 
         <requestFocus />
     </EditText>
@@ -82,7 +74,8 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView3"
         android:layout_alignLeft="@+id/editText3"
-        android:ems="10" />
+        android:ems="10"
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/editText3"
@@ -90,7 +83,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/editText2"
-        android:ems="10" />
+        android:ems="10"
+        android:inputType="text" />
 
     <TextView
         android:id="@+id/textView7"
@@ -126,7 +120,8 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/editText4"
         android:layout_below="@+id/editText4"
-        android:ems="10" />
+        android:ems="10"
+        android:inputType="number" />
 
     <Spinner
         android:id="@+id/spinner1"
@@ -134,5 +129,14 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/editText4"
         android:layout_alignLeft="@+id/editText4" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_toLeftOf="@+id/editText1"
+        android:text="Nombre"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>

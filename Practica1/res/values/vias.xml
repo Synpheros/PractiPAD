@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vias">
+		<item>Avenida</item>
+		<item>Calle</item>
+		<item>Carretera</item>
+		<item>Glorieta</item>
+		<item>Paseo</item>
+		<item>Ronda</item>
+	</string-array>
+</resources>
